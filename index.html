@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srejus Jayakumar</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <!-- NavBar Starts -->
+    <nav class="navbar navbar-expand-lg same">
+        <a class="navbar-brand" href="/">
+            <img src="images/logo.png" class="logo" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#experience">Experience</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/#more">More</a>
+            </li>
+          </ul>
+        </div>
+       
+      </nav>
+
+    <!-- NavBar Ends -->
+
+      <div class="main-div">
+        <div class="main-first">
+            <h1 class="main-font">Hi I'm <br>Srejus Jayakumar</h1>
+            <p class="desc">Building the Foundation of Seamless Experiences: Unleashing the Power of Backend Development</p>
+            <div class="row">
+              <button onclick="window.location.href='/#about'" class="main-btn">About Me </button>
+              <button onclick="downloadResume()" class="main-btn">Download Resume <i class="fa fa-download"></i> </button>
+            </div>
+        </div>
+        <!-- <img class="cover-img" src="images/passp" alt=""> -->
+      </div>
+
+      <!-- Main Section Ends -->
+
+      <h2 class="sub-head">About Me</h2>
+      <div class="main-div" id="about">
+        <div>
+            <img src="images/passport_size.png" class="profile-pic" alt="profile-pic">
+        </div>
+        <div style="width:75%">
+            <p class="sub-para">Srejus Jayakumar, a Python Django specialist, and the visionary founder of Foodeato an innovative online food delivery startup revolutionizing culinary experiences with cutting-edge technology. With expertise in backend development, I craft seamless solutions that drive efficiency, scalability, and user satisfaction. Transforming ideas into reality, I thrive on fueling digital growth and shaping the future of the industry.I'm a BCA graduate with 1+ years of experience, leveraging Python Django in Kochi, Kerala,India—where technology meets captivating landscapes.</p>
+        </div>
+      </div>
+
+      <!-- About Section Ends -->
+      <!-- Main Section Ends -->
+
+      <h2 class="sub-head">Experience</h2>
+      <div class="main-div" id="experience">
+        <div class="card-div">
+            <div class="mcard">
+                <h3>Founder & Developer @ <br>Foodeato</h3>
+                <p style="padding-left: 25px;">2020-PRESENT</p>
+                <a href="https://foodeato.in" target="_blank"><button class="visit-btn">Visit Site</button></a>
+            </div>
+            <div class="mcard">
+                <h3>Backend Developer Intern @ <br>Enalo Technologies</h3>
+                <p style="padding-left: 25px;">2022(Sep)-2023(Feb)</p>
+                <a href="https://enalo.in" target="_blank"><button class="visit-btn">Visit Site</button></a>
+            </div>
+            <div class="mcard">
+                <h3>Junior SDE @<br> Enalo Technologies</h3>
+                <p style="padding-left: 25px;">2023(Mar)-PRESENT</p>
+                <a href="https://enalo.in" target="_blank"><button class="visit-btn">Visit Site</button></a>
+            </div>
+        </div>
+      </div>
+
+      <h2 class="sub-head">Technologies I'm Using</h2>
+      <div class="main-div" id="more">
+        <marquee behavior="" direction="">
+        <div class="card-div">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png" class="tech-logo" alt="python">
+
+          <img src="https://download.logo.wine/logo/Django_(web_framework)/Django_(web_framework)-Logo.wine.png" class="tech-logo" style="margin-top: -25px;" alt="django">
+        
+          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--961sQy_m--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pdlelneo05ui6m4l1cqj.png" class="tech-logo" alt="django-rest">
+        
+          <img src="https://miro.medium.com/v2/resize:fit:1200/0*p4OJ29rbtqDvpLU7.png" style="width:350px" class="tech-logo" alt="react">
+
+          <img src="https://media.licdn.com/dms/image/C5612AQF_773nXCIURQ/article-cover_image-shrink_600_2000/0/1626144169379?e=2147483647&v=beta&t=YutX4Fy_zKH4xDIEdW5lTjOGQ7HlxkImrTD71c7PP5w" class="tech-logo" alt="aws-ec2">
+          
+        </div>
+      </marquee>
+      </div>
+
+      <br><br><br>
+      <footer>
+        <div class="footer">
+          <a target="_blank" href="https://www.facebook.com/srejus/">
+            <i class="fa fa-facebook"></i>
+          </a>
+
+          <a target="_blank" href="https://www.instagram.com/srejus_jayakumar/">
+            <i class="fa fa-instagram"></i>
+          </a>
+
+          <a target="_blank" href="https://twitter.com/_sreju">
+            <i class="fa fa-twitter"></i>
+          </a>
+
+          <a target="_blank" href="https://github.com/srejus">
+            <i class="fa fa-github"></i>
+          </a>
+
+          <a target="_blank" href="https://www.linkedin.com/in/srejus-jayakumar-a04269218/">
+            <i class="fa fa-linkedin"></i>
+          </a>
+
+          <a target="_blank" href="mailto:srejusjayakumar@gmail.com">
+            <i class="fa fa-envelope"></i>
+          </a>
+
+          <a target="_blank" href="https://www.youtube.com/@techwithsreju">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </div>
+      </footer>
+      
+      <a onclick="window.location.href='/'" id="goToTopBtn"><img class="fixed-logo" src="https://www.gitam.edu/scroll-to-top.png" style="bottom: 200px;" alt=""></a>
+
+      <a href="https://wa.me/918921988362?text=Hello%2C%20I%20found%20your%20portfolio"><img class="fixed-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt=""></a>
+
+
+      <!-- JS code for move to top -->
+      <script>
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("goToTopBtn").style.display = "block";
+            } else {
+              document.getElementById("goToTopBtn").style.display = "none";
+            }
+          }
+
+          function goToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+
+
+          function downloadResume() {
+            // Create a dummy element with the desired file URL
+            var link = document.createElement('a');
+            link.href = 'assets/resume.pdf';
+            link.download = 'srejus_jayakumar_resume.pdf';
+
+            // Append the element to the DOM and trigger the download
+            document.body.appendChild(link);
+            link.click();
+
+            // Clean up the element from the DOM
+            document.body.removeChild(link);
+          }
+      </script>
+
+    </body>
+</html>

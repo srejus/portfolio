@@ -1,0 +1,45 @@
+.main-btn{
+    width: 210px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.main-btn:hover{
+    border: 0.7px solid black;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.visit-btn{
+    width: 90%;
+    height: 35px;
+    background-color: whitesmoke;
+    color: black;
+    border: 0.7px solid black;
+    margin: 15px;
+}
+
+.visit-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.fixed-logo{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 45px;
+    bottom: 70px;
+}
+
+@media(max-width:852px){
+    .main-btn{
+        width: 95%;
+        height: 35px;
+        font-size: 12px;
+    }
+}
